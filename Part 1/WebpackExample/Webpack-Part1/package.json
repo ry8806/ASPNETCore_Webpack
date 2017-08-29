@@ -1,7 +1,13 @@
-﻿{
+{
   "version": "1.0.0",
   "name": "asp.net",
   "private": true,
   "devDependencies": {
+    "ts-loader": "^2.3.4",
+    "typescript": "^2.4.2",
+    "webpack": "^3.5.5"
+  },
+  "scripts": {
+    "build:dev": "webpack --display-error-details --watch"
   }
 }
