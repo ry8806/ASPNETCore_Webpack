@@ -8,6 +8,9 @@ module.exports = {
         // Output a "contact.js" file from the "contact-page.ts" file
         contact: './Scripts/contact/contact-page.ts'
     },
+    resolve: {
+        extensions: [".ts"]
+    },
     module: {
         rules: [
             {
